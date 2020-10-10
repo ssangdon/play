@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="kor" dir="ltr">
+  <head>
+    <style media="screen">
+      a{
+        text-decoration: none;
+      }
+      .index{
+        font-size: 25px;
+        padding: 20px;
+        border-right: 2px solid gray;
+        width: 100px;
+      }
+      h1{
+        font-size: 50px;
+        text-align: center;
+        margin: 0px;
+        border-bottom: 2px solid gray;
+        padding: 10px;
+      }
+      li{
+        font-size: 30px;
+        padding: 0px;
+      }
+      body{
+        background-color:#000000;
+      }
+    </style>
+    <meta charset="utf-8">
+    <title>환영합니다</title>
+  </head>
+  <body>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+    </style>
+      <h1><a href="메인화면.html"><p style="font-family: 'Cute Font', cursive;"><font color="white">SeouL</p></a></h1>
+        <div class="index">
+          <ul>
+            <li><a href="송파구.html"><p style="font-family: 'Cute Font', cursive;">송파구</p></a></li>
+            <li><a href="광진구.html"><p style="font-family: 'Cute Font', cursive;">광진구</p></a></li>
+            <li><a href="강남구.html"><p style="font-family: 'Cute Font', cursive;">강남구</p></a></li>
+            <li><a href="마포구.html"><p style="font-family: 'Cute Font', cursive;">마포구</p></a></li>
+          </ul>
+        </div>
+      <input type="button" value="return" onclick="
+          document.querySelector('body').style.backgroundColor = 'black';
+          document.querySelector('body').style.color = 'white';
+      ">
+      <input type="button" value="error" onclick="
+          document.querySelector('body').style.backgroundColor = 'white';
+          document.querySelector('body').style.color = 'black';
+      ">
+    </body>
+</html>
